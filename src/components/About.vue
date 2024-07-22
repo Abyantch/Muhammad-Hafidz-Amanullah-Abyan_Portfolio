@@ -5,17 +5,17 @@
       <div class="">
         <img src="/src/assets/About.png"
           alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-          class="rounded drop-shadow-xl bg-none w-[25rem] ml-20 hover:scale-110 transition duration-500 " />
+          class="rounded drop-shadow-xl bg-none w-[25rem] mx-auto hover:scale-110 transition duration-500" />
       </div>
-      <div >
+      <div>
         <h2 class="text-3xl font-normal tracking-tight text-slate-700 dark:text-slate-500 sm:text-2xl">
           About Me
         </h2>
         <h1 class="text-3xl font-bold tracking-tight text-sky-500 sm:text-3xl">
           Building websites, a passion I embrace.
         </h1>
-        <p class="mt-4 text-slate-700 dark:text-slate-500"> 
-      Fresh graduate of the informatics engineering education program
+        <p class="mt-4 text-slate-700 dark:text-slate-500">
+          Fresh graduate of the informatics engineering education program
           who has an interest and experience in the world of digital visuals. I
           have worked on several projects with usability and aesthetics in mind.
           Accustomed to designing using canva and figma platforms, video editing
@@ -23,49 +23,48 @@
           developers using html, css, sass, bootsrap, tailwind, vue
           technologies.
         </p>
-        <div class="grid grid-cols-3 gap-4 mt-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-5">
           <div
-              class="bg-white dark:bg-slate-900 rounded-xl m-1 p-4 hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/50  transition duration-500  flex flex-col max-h-[9rem] max-w-[10rem] ">
-              <div class="rounded-lg overflow-hidden text-center">
-                <i class="bx bx-briefcase-alt-2 text-sky-300 bx-sm "></i>
-              </div>
-              <h3 class="text-center font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
-                Experience
-              </h3>
-              <p class="text-center font-light dark:text-slate-200 text text-secondary mb-auto dark:text-secondary-light">
-                +1 Year Working
-              </p>
+            class="bg-white dark:bg-slate-900 rounded-xl m-1 p-4 hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/50 transition duration-500 flex flex-col max-h-[9rem] max-w-[20rem]">
+            <div class="rounded-lg overflow-hidden text-center">
+              <i class="bx bx-briefcase-alt-2 text-sky-300 bx-sm"></i>
+            </div>
+            <h3 class="text-center font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
+              Experience
+            </h3>
+            <p class="text-center font-light dark:text-slate-200 text text-secondary mb-auto dark:text-secondary-light">
+              +1 Year Working
+            </p>
           </div>
-
-            <div
-              class="bg-white dark:bg-slate-900 rounded-xl shadow-xxl m-1 p-4 hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/50 transition duration-500 flex flex-col max-h-[9rem] max-w-[10rem]">
-              <div class="rounded-lg overflow-hidden text-center">
-                <i class="bx bx-book-content text-center text-sky-300  bx-sm mx-auto"></i>
-              </div>
-              <h3 class="text-center font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
-                Projects
-              </h3>
-              <p class="text-center font-light dark:text-slate-200 text-secondary mb-auto dark:text-secondary-light">
-                +10 Projects
-              </p>
+          <div
+            class="bg-white dark:bg-slate-900 rounded-xl m-1 p-4 hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/50 transition duration-500 flex flex-col max-h-[9rem] max-w-[20rem]">
+            <div class="rounded-lg overflow-hidden text-center">
+              <i class="bx bx-book-content text-center text-sky-300 bx-sm mx-auto"></i>
             </div>
-
-            <div
-              class="bg-white dark:bg-slate-900 rounded-xl shadow-xxl m-1 p-4 hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/50 transition duration-500 flex flex-col max-h-[9rem] max-w-[10rem]">
-              <div class="rounded-lg overflow-hidden text-center">
-                <i class='bx bx-support text-center text-sky-300 bx-sm mx-auto'></i>              
-              </div>
-              <h3 class="text-center font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
-                Freelance
-              </h3>
-              <p class="text-center font-light dark:text-slate-200 text text-secondary mb-auto dark:text-secondary-light">
-                24/7
-              </p>
+            <h3 class="text-center font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
+              Projects
+            </h3>
+            <p class="text-center font-light dark:text-slate-200 text-secondary mb-auto dark:text-secondary-light">
+              +10 Projects
+            </p>
+          </div>
+          <div
+            class="bg-white dark:bg-slate-900 rounded-xl m-1 p-4 hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/50 transition duration-500 flex flex-col max-h-[9rem] max-w-[20rem]">
+            <div class="rounded-lg overflow-hidden text-center">
+              <i class='bx bx-support text-center text-sky-300 bx-sm mx-auto'></i>
             </div>
-        </div>    
+            <h3 class="text-center font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
+              Freelance
+            </h3>
+            <p class="text-center font-light dark:text-slate-200 text text-secondary mb-auto dark:text-secondary-light">
+              24/7
+            </p>
+          </div>
         </div>
+
       </div>
     </div>
+  </div>
 </template>
 
 <script setup>

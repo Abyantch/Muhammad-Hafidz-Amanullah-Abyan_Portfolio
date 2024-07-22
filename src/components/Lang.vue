@@ -35,29 +35,54 @@
                         <li class="splide__slide">
                             <img class="max-h-12 w-full object-contain"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/172px-Python-logo-notext.svg.png"
-                                alt="Vue.js" width="158" height="48" />
+                                alt="Python" width="158" height="48" />
                         </li>
                         <li class="splide__slide">
                             <img class="max-h-12 w-full object-contain"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/225px-Unofficial_JavaScript_logo_2.svg.png"
-                                alt="Vue.js" width="158" height="48" />
+                                alt="JavaScript" width="158" height="48" />
                         </li>
                         <li class="splide__slide">
                             <img class="max-h-12 w-full object-contain"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/640px-Figma-logo.svg.png"
-                                alt="Vue.js" width="158" height="48" />
+                                alt="Figma" width="158" height="48" />
                         </li>
                         <li class="splide__slide">
                             <img class="max-h-12 w-full object-contain"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042"
-                                alt="Vue.js" width="158" height="48" />
+                                alt="Tailwind" width="158" height="48" />
                         </li>
                         <li class="splide__slide">
                             <img class="max-h-12 w-full object-contain"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wordpress-Logo.svg/768px-Wordpress-Logo.svg.png?20210511042647"
-                                alt="Vue.js" width="158" height="48" />
+                                alt="Wordpress" width="158" height="48" />
                         </li>
-                       
+                        <li class="splide__slide">
+                            <img class="max-h-12 w-full object-contain"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207"
+                                alt="React" width="158" height="48" />
+                        </li>
+                        <li class="splide__slide">
+                            <img class="max-h-12 w-full object-contain"
+                                src="https://th.bing.com/th/id/OIP.b6COxQxrr0FPStd8EeJf0QHaGa?rs=1&pid=ImgDetMain"
+                                alt="MUI" width="158" height="48" />
+                        </li>
+                        <li class="splide__slide">
+                            <img class="max-h-12 w-full object-contain"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/615px-Vitejs-logo.svg.png?20220412224743"
+                                alt="Vite" width="158" height="48" />
+                        </li>
+                        <li class="splide__slide">
+                            <img class="max-h-12 w-full object-contain"
+                                src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"
+                                alt="Github" width="158" height="48" />
+                        </li>
+                    
+                        <li class="splide__slide">
+                            <img class="max-h-12 w-full object-contain"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Webpack.svg/768px-Webpack.svg.png?20210415142115"
+                                alt="Webpack" width="158" height="48" />
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +100,7 @@ export default {
             type: "loop",
             perPage: 5,
             autoplay: true,
-            interval:4000,
+            interval:3000,
             speed:5000,
             pauseOnHover: false,
             breakpoints: {
