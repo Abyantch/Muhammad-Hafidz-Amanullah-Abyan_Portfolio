@@ -50,6 +50,19 @@
                         class="text-light text-sky-500">More!</a>
                 </div>
 
+                <div x-show="openTab === 1"
+                    class="card transition-all duration-300 bg-white dark:bg-slate-900 rounded-xl shadow-md m-1 p-4 hover:scale-105 hover:transition hover:duration-500">
+                    <div class="rounded-lg overflow-hidden">
+                        <img src="https://ik.imagekit.io/ymfeid1q7/Jadoo.png?updatedAt=1721720031446" alt="Project 1"
+                            class="max-h-70 sm:h-60 w-full object-cover" />
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Jadoo
+                    </h3>
+                    <a href="https://landingpagejadoo.netlify.app"
+                        class="text-light text-sky-500">More!</a>
+                </div>
+
                 <div x-show="openTab === 2"
                     class="card transition-all duration-300 bg-white dark:bg-slate-900 rounded-xl shadow-md m-1 p-4 hover:scale-105 hover:transition hover:duration-500">
                     <div class="rounded-lg overflow-hidden">
@@ -59,7 +72,7 @@
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
                         To-Do-List App
                     </h3>
-                    <a href="https://github.com/Abyantch/To-Do-List-App"
+                    <a href="https://todo-app-abyantch.netlify.app/"
                         class="text-light text-sky-500">More!</a>
                 </div>
 
@@ -73,6 +86,19 @@
                         Drication
                     </h3>
                     <a href="https://github.com/Abyantch/Diabetic-retinopathy-identification-CLAHE-2D-LDA-Using-Hassanat-Distance-KNN-H-KNN-algorithm."
+                        class="text-light text-sky-500">More!</a>
+                </div>
+
+                <div x-show="openTab === 2"
+                    class="card transition-all duration-300 bg-white dark:bg-slate-900 rounded-xl shadow-md m-1 p-4 hover:scale-105 hover:transition hover:duration-500">
+                    <div class="rounded-lg overflow-hidden">
+                        <img src="https://ik.imagekit.io/ymfeid1q7/KanbanKuu?updatedAt=1721645598549" alt="Project 1"
+                            class="max-h-70 sm:h-60 w-full object-cover" />
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        KanbanKuu
+                    </h3>
+                    <a href="https://kanbankuu-abyantch.netlify.app/"
                         class="text-light text-sky-500">More!</a>
                 </div>
 
