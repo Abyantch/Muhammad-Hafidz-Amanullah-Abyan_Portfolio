@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div v-if="experience.description" class="mt-6 sm:mt-0 max-w-full sm:max-w-lg">
-                    <span class="absolute flex items-center justify-center w-4 h-4 sm:w-6 sm:h-6 bg-blue-100 rounded-full left-1/2  transform -translate-x-1/2 sm:left-[-2.3rem] sm:transform-none ring-8 ring-white dark:ring-sky-500 dark:bg-white">
+                    <span class="absolute flex items-center justify-center w-4 h-4 sm:w-6 sm:h-6 bg-blue-100 rounded-full transform -translate-x-[2rem] sm:left-[-2.3rem] sm:transform-none ring-8 ring-white dark:ring-sky-500 dark:bg-white">
                         <svg class="w-2 h-2 sm:w-2.5 sm:h-2.5 text-sky-500 dark:text-sky-500 shadow-2xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                         </svg>
@@ -76,7 +76,7 @@ const experiences = ref([
         imgSrc: 'https://www.gamelab.id/img/share-v3.png?v=3.11?v=2.1',
         position: 'Bootcamp Front End Developer',
         time: 'June 2024',
-        description: 'Learning all about front end dev, start from using bootstrap, SASS, VueJs, Tailwind, ReactJs, and MUI',
+        description: 'Learning all about front end dev at Gamelab Indonesia, start from using bootstrap, SASS, VueJs, Tailwind, ReactJs, and MUI.',
     }
 ]);
 
