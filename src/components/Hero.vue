@@ -4,7 +4,7 @@
 <template>
   <div id="Hero" class="bg-white dark:bg-slate-950">
     <div class="mx-auto mt-[6.5rem] max-w-6xl py-6 sm:px-6 sm:py-1 lg:px-8">
-      <div class="relative isolate overflow-hidden max-h-[40] max-lg:[40rem] max-sm:[20rem] bg-sky-500 dark:bg-sky-700 px-6 pt-16 hover:shadow-2xl rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 hover:scale-105 transition duration-500 flex flex-col-reverse lg:flex-row">
+      <div class="relative isolate overflow-hidden max-h-[40] max-lg:[40rem] max-sm:[20rem] bg-sky-500 dark:bg-sky-700 px-6 pt-16 hover:shadow-2xl rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 hover:scale-102 transition duration-500 flex flex-col-reverse lg:flex-row">
         <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[30rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
           <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
           <defs>
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="relative sm:my-auto h-auto lg:ml-20 flex justify-center items-center lg:flex lg:items-center">
-          <img class="relative mx-auto max-w-full p-10 object-contain sm:max-w-auto rounded-3xl" src="/src/assets/CTO.png" alt="Abyantch" />
+          <img class="relative mx-auto max-w-full p-10 object-contain sm:max-w-auto " src="/src/assets/CTO.png" alt="Abyantch" />
         </div>
       </div>
       <div class="relative mt-1">

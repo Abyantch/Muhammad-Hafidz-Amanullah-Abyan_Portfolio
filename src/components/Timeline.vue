@@ -9,9 +9,9 @@
             </h1>
         </div>
         <ol class="relative border-l-2 sm:border-s-2 mt-10 sm:mt-20 ml-4 sm:ml-[36rem] border-gray-200 dark:border-gray-500">
-            <li v-for="(experience, index) in experiences" :key="index" class="mb-4 sm:mb-10 ml-4 sm:ml-6 relative" :style="animationDelay(index)">
-                <div class="absolute left-[-2.5rem] sm:left-[-17rem] flex flex-col items-center sm:flex-row sm:items-start">
-                    <img :src="experience.imgSrc" alt="Gambar" class="w-10 h-10 sm:w-14 sm:h-14 mb-2 sm:mb-0 rounded-full ring-2 ring-white" />
+            <li v-for="(experience, index) in experiences" :key="index" class="mb-4 sm:mb-10 ml-6 relative" :style="animationDelay(index)">
+                <div class="absolute left-[-17rem] flex flex-row items-center">
+                    <img :src="experience.imgSrc" alt="Gambar" class="w-10 h-10 sm:w-14 sm:h-14 mb-2 sm:mb-0 rounded-full ring-2" />
                     <div class="sm:ml-4 text-center sm:text-left">
                         <h3 class="text-sm sm:text-lg font-semibold text-black dark:text-slate-700">
                             {{ experience.company }}
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div v-if="experience.description" class="mt-6 sm:mt-0 max-w-full sm:max-w-lg">
-                    <span class="absolute flex items-center justify-center w-4 h-4 sm:w-6 sm:h-6 bg-blue-100 rounded-full left-1/2 transform -translate-x-1/2 sm:left-[-2.3rem] sm:transform-none ring-8 ring-white dark:ring-sky-500 dark:bg-white">
+                    <span class="absolute flex items-center justify-center w-4 h-4 sm:w-6 sm:h-6 bg-blue-100 rounded-full left-1/2  transform -translate-x-1/2 sm:left-[-2.3rem] sm:transform-none ring-8 ring-white dark:ring-sky-500 dark:bg-white">
                         <svg class="w-2 h-2 sm:w-2.5 sm:h-2.5 text-sky-500 dark:text-sky-500 shadow-2xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                         </svg>

@@ -72,6 +72,22 @@ export default {
                     comments: 9
                 },
                 {
+                    image: 'https://ik.imagekit.io/ymfeid1q7/PNG/compressed/Gamelab_Bootstrap%20&%20SASS.png?updatedAt=1718350927008',
+                    link: '#',
+                    title: 'Vue JS (Gamelab Indonesia)',
+                    description: 'Completed one of the materials at the bootcamp at gamelab indonesia on the topic of Vue JS.',
+                    time: '10 Juni 2024',
+                    comments: 9
+                },
+                {
+                    image: 'https://ik.imagekit.io/ymfeid1q7/PNG/compressed/Gamelab_Bootstrap%20&%20SASS.png?updatedAt=1718350927008',
+                    link: '#',
+                    title: 'React JS (Gamelab Indonesia)',
+                    description: 'Completed one of the materials at the bootcamp at gamelab indonesia on the topic of React JS.',
+                    time: '10 Juni 2024',
+                    comments: 9
+                },
+                {
                     image: 'https://ik.imagekit.io/ymfeid1q7/PNG/compressed/PH_Hafidz%20A.A.png?updatedAt=1718350927913',
                     link: '#',
                     title: 'FMI FMIPA UNNES',
